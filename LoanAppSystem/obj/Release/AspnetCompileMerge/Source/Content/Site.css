@@ -1,0 +1,207 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+    body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+    footer{
+        background-color: #3D3D3D;
+        padding-bottom:30px;
+        color:white;
+    }
+   
+.label {
+    width:700px;
+    height: 20px;
+    padding:30px;
+    background:#47a447;
+    -webkit-animation: fadeinout 9s linear forwards;
+    animation: fadeinout 9s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
+
+.wlcometxt{
+        font-weight:900;
+        font-size:20px;
+        color: #7dc9e8 ;
+        
+      text-transform:uppercase;
+        font-weight:bold;
+    }
+
+/* Header design*/
+.home-bar{
+border:15px solid  #3D3D3D; 
+margin:2px ;
+}
+
+.navbar-default{
+    padding-top:-10px;
+}
+.top-image{
+      width:1169px;
+}
+.menu-section {
+    background-color: #3D3D3D;
+   
+}
+
+
+.set-radius-zero {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    background-image: url('../img/elektroene.bmp');
+    height: 400px;
+}
+
+#menu-top a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.menu-section .nav > li > a:hover,.menu-section .nav > li > a:focus {
+    background-color:#7dc9e8  !important;
+}
+
+.menu-top-active {
+    background-color: #7dc9e8 ;
+}
+
+.navbar-inverse {
+    background-color:#7dc9e8 ;
+    border-color: transparent;
+}
+
+.page-head-line {
+    font-weight: 900;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    color:#3D3D3D;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-side li{
+    padding-left:10px;
+    margin-bottom:10px;
+    text-transform:uppercase;
+    font-weight:900;
+    border-bottom:solid 1px black;
+   
+}
+.nav-heading{
+    background-color:black;
+    color:white;
+    border:solid 5px #eFeFeF ;
+    padding-bottom:50px;
+}
+
+.active-link{
+   background-color: #7dc9e8 ;
+}
+/* Body Design */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ .ModalPopupBG
+{
+    background-color: #666699;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+.HellowWorldPopup
+{
+    min-width:200px;
+    min-height:150px;
+    background:white;
+}
+
+label{
+    font-size:15px;
+}
+.page-content{
+    padding-left:20px;
+}
+.content-wrapper {
+    margin-top: 40px;
+    min-height: 600px;
+    padding-bottom: 60px;
+}
+
+.list-active{
+    background-color:black;
+    text-transform:uppercase;
+    font-weight:900;
+    color:white;
+    padding-left:20px;
+    padding-bottom:20px;
+}
+.welcometxt{
+    margin-top:50px;
+    padding-top:20px;
+    text-shadow:10px 6px 2px #7dc9e8;
+    font-family:'Arial Rounded MT';
+    font-size:100px;
+    font-weight:bold;
+}
+
+/*
+    footer
+*/
+footer{
+    align-content:center;
+    padding-left:40px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 0px;
+      
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+/*
+    Toaster
+*/
